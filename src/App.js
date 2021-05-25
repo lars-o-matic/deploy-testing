@@ -10,7 +10,7 @@ function App() {
         <h1>Another version of deploy-testing with React-Router</h1>
         <Link to="/cats">Visit the cats</Link>
       </header>
-      <Cat />
+      <Route path="/cats" component={Cat} />
     </div>
     </Router>
   );
