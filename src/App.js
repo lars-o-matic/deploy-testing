@@ -6,11 +6,9 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <header className="App-header">
-        <h1>Another version of deploy-testing with React-Router</h1>
-        <Link to="/cats">Visit the cats</Link>
-      </header>
-      <Route path="/cats" component={Cat} />
+      <h1>Another version of deploy-testing with React-Router</h1>
+      <Link to="/cat">Visit the cats</Link>
+      <Route path="/cat" component={Cat} />
     </div>
     </Router>
   );
